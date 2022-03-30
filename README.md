@@ -6,4 +6,4 @@ This is a real estate app
 
 [trello board here](https://trello.com/b/ITqIWe5e/real-estate-sp22)
 
-Change YO
+Change
