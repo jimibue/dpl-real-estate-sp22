@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  max_price: 1.5
+  cities: MyText
+  agent: one
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone: MyString
+  max_price: 1.5
+  cities: MyText
+  agent: two
