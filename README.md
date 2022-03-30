@@ -6,8 +6,9 @@ This is a real estate app
 
 [trello board here](https://trello.com/b/ITqIWe5e/real-estate-sp22)
 
-Change YO
+Change
 
 MADE CHANGE IN JY-MODELS BRANCH
 I am working feature.. it is not complete but a have millions changes in million files
 and have a lot of work to do...
+
