@@ -14,3 +14,13 @@ and have a lot of work to do...
 
 FINISH WORK!!!
 
+More than just pulling things....
+# some adds a migration
+ need to pull AND run rails db:migrate
+
+# some adds a gem
+need to pull AND run bundle
+
+# some adds a js package
+need to pull AND cd into client and run yarn
+
