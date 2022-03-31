@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button';
 import { useContext, useState } from "react"
 import { AuthContext } from "../../providers/AuthProvider"
 
@@ -20,7 +21,7 @@ const Login = ()=>{
                 <input value={email} onChange={(e)=> setEmail(e.target.value)}/>
                 <p>password</p>
                 <input value={password} onChange={(e)=> setPassword(e.target.value)}/>
-                <button>login</button>
+                <Button onClick={handleSubmit} variant="primary">Primary</Button>
             </form>
         </div>
     )

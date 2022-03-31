@@ -7,6 +7,8 @@ import { BrowserRouter } from "react-router-dom";
 import AuthProvider from "./providers/AuthProvider";
 
 import { initMiddleware } from 'devise-axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // this going to get token from api calls and set them to be sent on the
 // next api call
