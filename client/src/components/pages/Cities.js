@@ -30,7 +30,8 @@ const Cities = (props) => {
 
   const renderSelect = (cities) => {
     return (
-      <Form.Select onChange={handleSelect} aria-label="Select City">
+      <Form.Select label='Select'  onChange={handleSelect} aria-label="Select City">
+           <option value="" disabled selected hidden>Please Choose...</option>
         {cities.map((city) => (
           <option value={city}>{city}</option>
         ))}
