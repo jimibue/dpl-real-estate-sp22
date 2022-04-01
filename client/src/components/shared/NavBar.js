@@ -31,7 +31,8 @@ const Navbar = () => {
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div>
-        <Link to="/available">Available</Link>
+        <Link to="/available">Available</Link> - 
+        <Link to="/cities">Cities</Link>
         {renderLeft()}
 
       </div>
