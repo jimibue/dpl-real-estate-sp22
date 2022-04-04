@@ -32,7 +32,8 @@ const Navbar = () => {
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div>
         <Link to="/available">Available</Link> - 
-        <Link to="/cities">Cities</Link>
+        <Link to="/cities">Cities</Link> -
+        <Link to="/find_homes">Find Homes</Link> 
         {renderLeft()}
 
       </div>
