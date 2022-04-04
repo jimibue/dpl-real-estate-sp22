@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useAxios from "axios-hooks";
 import { Form, Table } from "react-bootstrap";
+import axios from "axios";
 
 const Cities = (props) => {
   // get the from DB (once) useEffect setState etc.. in one line
@@ -20,12 +21,20 @@ const Cities = (props) => {
       // this return value becomes the next acumm in function call
       return acumm;
     }, []);
+
+    // axios call (need to setup uniqueCities state)
+
   };
 
-  const handleSelect = (event) => {
+  const handleSelect = async(event) => {
     let selectedCity = event.target.value;
     // filter
-    setFilterCities(properties.filter((p) => p.city === selectedCity));
+    // setFilterCities(properties.filter((p) => p.city === selectedCity));
+
+    // axios call to setFilterCities
+    let res = await axios.get(`/api/properties/${selectedCity}`)
+    setFilterCities(res.data)
+
   };
 
   const renderSelect = (cities) => {
