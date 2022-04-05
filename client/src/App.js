@@ -12,6 +12,7 @@ import ProtectedRoute from './components/shared/ProtectRoute';
 import Available from './components/pages/Available';
 import Cities from './components/pages/Cities';
 import FindHomes from './components/pages/FindHomes';
+import CityCost from './components/pages/CityCost';
 
 // Fetch user: it is going to see if the user is logged in(valid user)
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path='/available' element={<Available />}/>
             <Route path='/cities' element={<Cities />}/>
             <Route path='/find_homes' element={<FindHomes />}/>
+            <Route path='/city_cost' element={<CityCost />}/>
            
                 {/* protected in routes inside of here you need to logged in*/}
                 {/* else you go to login page*/}

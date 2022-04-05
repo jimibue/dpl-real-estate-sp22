@@ -33,7 +33,8 @@ const Navbar = () => {
       <div>
         <Link to="/available">Available</Link> - 
         <Link to="/cities">Cities</Link> -
-        <Link to="/find_homes">Find Homes</Link> 
+        <Link to="/find_homes">Find Homes</Link> - 
+        <Link to="/city_cost">City Cost</Link> 
         {renderLeft()}
 
       </div>
